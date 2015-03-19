@@ -1,0 +1,17 @@
+{
+  "name": "timeline-package-tracker-server",
+  "version": "1.0.0",
+  "description": "Get requests from Pebbles. Sends pins o' packages to timeline. ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "kirbyk",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.12.2",
+    "express": "^4.12.3",
+    "request": "^2.53.0"
+  }
+}

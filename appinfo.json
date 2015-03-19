@@ -1,0 +1,22 @@
+{
+  "uuid": "10498eb8-19e4-45dc-8290-295a4be1f64f",
+  "shortName": "package-tracker",
+  "longName": "package-tracker",
+  "companyName": "MakeAwesomeHappen",
+  "versionCode": 1,
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["basalt"],
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+      "pkg_1": 0,
+      "pkg_2": 1,
+      "pkg_3": 2,
+      "pkg_count": 3
+  },
+  "resources": {
+    "media": []
+  }
+}

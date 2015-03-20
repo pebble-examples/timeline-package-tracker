@@ -27,7 +27,7 @@ setInterval(function() {
     var oauth     = users[user]['oauth'];
     getPackages(oauth, userToken);
   });
-}, 6000);
+}, 30000);
 
 var getPackages = function(oauth, userToken) {
   var options = {

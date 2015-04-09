@@ -1,5 +1,5 @@
-
 # Ignore build generated files
-build
+pebble/build
+.lock-waf_darwin_build
 .DS_Store
 server/node_modules

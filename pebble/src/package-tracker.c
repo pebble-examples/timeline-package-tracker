@@ -35,7 +35,7 @@ static void sync_success(const uint32_t key, const Tuple* new_tuple,
       snprintf(packages[1], sizeof(packages[1]), new_tuple->value->cstring);
       break;
     case KEY_PKG_3:
-      snprintf(delivery_dates[2], sizeof(delivery_dates[1]), strchr(new_tuple->value->cstring, '|')+1);
+      snprintf(delivery_dates[2], sizeof(delivery_dates[2]), strchr(new_tuple->value->cstring, '|')+1);
       *strchr(new_tuple->value->cstring, '|') = '\0';
       snprintf(packages[2], sizeof(packages[2]), new_tuple->value->cstring);
       break;

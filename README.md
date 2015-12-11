@@ -4,7 +4,7 @@ Getting Started with the new Pebble Timeline
 Getting Started
 --------------------------------------
 
-1. [Follow Slice.com's Hello World Example](https://developer.slice.com/docs/hello), to setup Oauth, with we'll be using in our server.js.
+1. [Follow Slice.com's Hello World Example](http://devdocs.slice.com/resources/hello/), to setup Oauth, with we'll be using in our server.js.
 2. Install [Node.js](https://nodejs.org/).
 3. Setup your [Express](http://expressjs.com/) server
 ```
